@@ -1,7 +1,15 @@
-#container1{
-    width:60px
-}
+
 h1{
     background-color: blue;
     color:cornsilk;
+}
+#container1{
+    width: 800px;
+    
+}
+
+#container2{
+    width: 200px;
+    height: 100px;
+    margin-left: 0px;
 }
