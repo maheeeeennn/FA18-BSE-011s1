@@ -1,15 +1,23 @@
 
 h1{
     background-color: blue;
-    color:cornsilk;
+    color:rgb(226, 214, 168);
+    text-align: center;
+    padding:20px;
 }
 #container1{
-    width: 800px;
+    width: 850px;
+    float: left;
     
 }
 
 #container2{
-    width: 200px;
+    width: 250px;
     height: 100px;
-    margin-left: 0px;
+    position: relative;
+    float: right; 
+    margin-top: 20px;
+    margin-right: 100px;
+  
 }
+
