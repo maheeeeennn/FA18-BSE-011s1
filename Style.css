@@ -5,6 +5,16 @@ h1{
     text-align: center;
     padding:20px;
 }
+#navv li{
+    display: inline;
+    padding: 10px;
+   
+}
+#navv{
+     text-decoration: none;
+     list-style-type: none;
+
+}
 #container1{
     width: 850px;
     float: left;
