@@ -1,52 +1,85 @@
 
-h1{
-    background-color: rgb(0,86,128);
+#h1{
+    background-color:  rgb(0, 86, 128);
     color: white;
-    text-align: center;
-    padding:20px;
+    text-align: left;
+    padding:10px 40px;
+    font-family: Arial, sans-serif !important;
+    Margin: 0px auto;
+   
+    
+}
+h1{
+    padding: 20px 100px;
+    width: 400px;
 }
 #nav{
-    
-    padding-top:5 px;
-    margin: 0 px;  
-    display: inline;
-    flex: wrap;
-   
+    border: 1px solid rgb(4, 69, 102);
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(4, 69, 102);
+    justify-content: space-around;
+    margin:0px auto;
+    font-family: Arial, sans-serif !important;
 }
-#navv li{
-    display: inline;
+#nav_items li{
+    display: inline-Block;
     padding: 10px;
     margin:0px;
     
-   
 }
-#navv{
+#nav_items{
      text-decoration: none;
      list-style-type: none;
-     background-color: rgb(0,86,128);
-    color: white;
-     padding: 30px 80px;
+    
+     color: white;
+     /* padding: 30px 80px; */
      margin: 0px;
+ padding: 10px 100px;
      
 }
 
 
-#container1{
-    width: 700px;
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 600px;
     float: left;
+    Padding: 10px 20px;
+    Margin: 0px auto;
     
 }
 
-#container2{
-    width: 250px;
-    height: 100px;
+.container2{
+    display: flex;
     position: relative;
     float: right; 
     margin-top: 20px;
     margin-right: 100px;
+    Margin-left: 0px;
   
 }
 body{
-    padding: 10px 60px;
-    
+    padding: 0px;
+    Margin:0px auto; 
+}
+#top{
+    background-color: rgba(0, 0, 0, 0.897);
+    height: 40px;
+    width:100%;
+    Margin: 0px auto;
+    Margin-right: 0px;
+   
+}
+
+#content{
+Padding: 10px 100px;
+}
+
+.list{
+    font-weight: 500;
+}
+p {
+    font-size: 15px;
 }
